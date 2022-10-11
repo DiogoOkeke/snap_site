@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=0">
+  
+  <link rel="preload" as="image" href="image-hero-mobile.png">
+  <link rel="preload" as="image" href="image-hero-desktop.png">
+  <link rel="preload" as="image" href="client-audiophile.svg">
+  <link rel="preload" as="image" href="client-databiz.svg">
+  <link rel="preload" as="image" href="client-maker.svg">
+  <link rel="preload" as="image" href="client-meet.svg">
+  <link rel="preload" as="image" href="icon-reminders.svg">
+  <link rel="preload" as="image" href="icon-calendar.svg">
+  <link rel="preload" as="image" href="icon-planning.svg">
+  <link rel="preload" as="image" href="icon-todo.svg">
+  <link rel="preload" as="image" href="icon-close-menu.svg">
+  <link rel="preload" as="image" href="icon-menu.svg">
+  <link rel="preload" as="image" href="logo.svg">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Epilogue">
+  
+  <link rel="stylesheet" media="screen and (min-width: 740px)" href="desktop.css">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>snap</title>
+  
+</head>
+
+
+
+<body>
+
+ <header>
+  <nav>
+   
+   <div class="main-header-div">
+    
+    <div>
+     <picture>
+     <source class="desktop-logo" height="35vh" width="95vw" media="(min-width: 740px)" srcset="logo.svg">
+     <img src="logo.svg" width="100vw" height="30vh" alt="snap's logo">
+     </picture>
+    </div>
+    
+    <div class="nav-menu">
+     
+     <div class="hamburger-menu">
+      
+      <div class="bars">
+      <img id="hamburger-menu" width="50vw" src="icon-menu.svg" alt="hamburger-menu">
+      </div>
+      
+
+    <div class="nav-content">
+       
+       <div class="close-nav-div">
+        <img id="close-menu" src="icon-close-menu.svg" alt="close nav menu icon">
+       </div>
+       
+      <div class="responsive-nav-div">    
+       <div class="features">
+        
+       <div class="sub-features">
+        
+        <div class="feature-pTag">
+         <p>Features</p>
+         <i class="feature-caret fa-sharp fa-solid fa-caret-up"></i>
+        </div>
+        
+        <div class="features-subContent">
+         
+         <div>
+          <img src="icon-todo.svg" alt="A Todo icon">
+          <a href="#">Todo List</a>
+         </div>
+         
+         <div>
+          <img src="icon-calendar.svg" alt="Calendar icon">
+          <a href="#">Calendar</a>
+         </div>
+         
+         <div>
+          <img src="icon-reminders.svg" alt="A Reminder Icon">
+          <a href="#">Reminders</a>
+         </div>
+         
+         <div>
+          <img src="icon-planning.svg" alt="A Planning Icon">
+          <a href="#">Planning</a>
+         </div>
+         
+       </div>  
+        </div>
+        
+       </div>
+       
+       
+       <div class="company">
+        
+        <div class="sub-company">
+         
+        <div class="company-pTag">
+         <p>Company</p>
+         <i class="company-caret fa-sharp fa-solid fa-caret-up"></i>
+        </div>
+        
+        <div class="company-subContent">
+         
+         <div>
+         <a href="#">History</a>
+         </div>
+         
+         <div>
+         <a href="#">Our Team</a>
+         </div>
+         
+         <div>
+         <a href="#">Blog</a>
+         </div>
+         
+        </div>
+       </div> 
+       </div>
+       
+       <div class="careers-div">
+        <a href="#">Careers</a>
+       </div>
+       
+       <div class="about-div">
+        <a href="#">About</a>
+       </div>
+    </div>  
+       
+     <div class="responsive-nav-div-two">
+       <div class="login-div">
+        <a class="login" href="#">Login</a>
+       </div>
+       
+       <div class="register-button-div">
+        <button>Register</button>
+       </div>
+     </div>
+      </div>
+     
+  </div>
+      
+    </div>
+   </div>
+  </nav>
+ </header>
+ 
+ <section>
+  
+  <div class="image-div">
+   
+   <picture>
+   <source class="desktop-image" media="(min-width: 740px)" srcset="image-hero-desktop.png">
+   <img width="100%" src="image-hero-mobile.png" alt="Image of a guy holding a laptop.">
+   </picture>
+   
+   </div>
+   
+  <div class="text-div">
+  
+   <h2>Make <span class="remote">remote work</span></h2>
+   
+   <p>Get your team in sync, no matter your location.&nbsp;Streamline processes, create team&nbsp;rituals, and watch productivity soar.</p>
+   
+   <button>Learn more</button>
+   
+   <div class="clients-div">
+    <img width="20%" height="15vh" src="client-databiz.svg" alt="Client Databiz logo">
+    <img width="15%" height="25vh" src="client-audiophile.svg" alt="Client Audiophile logo">
+    <img width="20%" height="15vh" src="client-meet.svg" alt="Client Meet logo">
+    <img width="20%" height="20vh" src="client-maker.svg" alt="Client Maker logo">
+   </div>
+   
+ </div>  
+ </section>
+ 
+
+  <!-- JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>

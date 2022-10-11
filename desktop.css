@@ -1,0 +1,162 @@
+header{
+ display: flex;
+ align-items: center;
+ margin-top: 2rem;
+ margin-left: 2rem;
+}
+
+header nav div.main-header-div div.nav-content p, a{
+ font-size: 1.5rem;
+ cursor: pointer;
+}
+
+header nav div.bars img,
+header nav div.close-nav-div img{
+ display: none;
+}
+
+header  nav  div.nav-menu  div.nav-content{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ pointer-events: auto;
+ min-height: 0;
+ min-width: 0;
+ padding: 0;
+ animation: 0;
+ background-color: transparent;
+}
+
+header nav div.features, header nav div.company{
+ margin-right: 2.5rem;
+}
+
+header nav div.company{
+ margin-right: 3.4rem;
+}
+
+header nav div.features i.feature-caret, header nav div.company i.company-caret {
+ margin-left: -.3rem;
+}
+
+header nav div.main-header-div div.responsive-nav-div,
+header nav div.main-header-div div.responsive-nav-div-two {
+ display: flex;
+}
+
+header nav div.main-header-div div.responsive-nav-div{
+ margin-top: -.25rem;
+ margin-left: 2.5rem;
+ display: flex;
+}
+
+header nav div.main-header-div div.responsive-nav-div-two {
+ margin-left: 10rem;
+ position: absolute;
+ top: -.3rem;
+ left: 32rem;
+}
+
+header  nav  div.login-div,
+header  nav  div.nav-menu  div.nav-content  div.register-button-div  button {
+ position: absolute;
+ top: .8rem;
+}
+
+header  nav  div.nav-menu  div.nav-content  div.register-button-div  button{
+ margin-top: .4rem;
+}
+
+header  nav  div.login-div{
+ margin-top: .9rem;
+ right: 1rem;
+}
+
+header nav div.about-div{
+ margin-top: 1.73rem;
+ margin-left: 1.5rem;
+}
+
+header  nav  div.nav-menu  div.nav-content  div.register-button-div  button,
+section div.text-div button {
+ width: 16vw;
+ font-size: 1.3rem;
+ cursor: pointer;
+}
+
+header nav div.responsive-nav-div div.features div.features-subContent,
+header nav div.responsive-nav-div div.company div.company-subContent{
+ box-shadow: 4px 2px 10px black;
+ padding: 30px 20px 10px 20px;
+}
+
+header nav div.responsive-nav-div div.features div.features-subContent{
+ margin-left: -6rem;
+}
+
+header nav div.responsive-nav-div div.company div.company-subContent{
+ margin-left: .8rem;
+ width: 15vw;
+ padding: 15px;
+ position: absolute;
+ left: 12rem;
+}
+
+section{
+ display: flex;
+ position: absolute;
+ top: 10rem;
+ flex-direction: row-reverse;
+ align-items: center;
+ margin-top: 3rem;
+ padding-left: 2rem;
+ padding-right: 3rem;
+}
+
+section  div.text-div  p{
+ opacity: 0;
+ animation: 0;
+ left: 0;
+ font-size: 1.3rem;
+ text-align: left;
+ margin-left: 2rem;
+ animation: opacity 2s linear 1s;
+ animation-fill-mode: forwards;
+}
+
+@keyframes opacity{
+ from{
+  opacity: 0;
+ }
+ to{
+  opacity: 1;
+ }
+}
+
+section div.text-div h2{
+ font-size: 4rem;
+ text-align: left;
+ margin-left: 2rem;
+}
+
+section div.text-div span.remote{
+ display: block;
+}
+
+section div.image-div .desktop-image{
+ margin-left: 5rem;
+}
+
+section div.text-div{
+ text-align: left;
+}
+
+section div.clients-div{
+ margin-left: 2rem;
+}
+
+section div.text-div button{
+ margin-left: 2.3rem;
+}
