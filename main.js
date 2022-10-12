@@ -1,4 +1,4 @@
- //Getting required elements
+ // Getting all required elements
 
 let hamburgerMenu = document.querySelector('#hamburger-menu');
 let navContent = document.querySelector('.nav-content');
@@ -9,6 +9,8 @@ let featuresSubContent = document.querySelector('.features-subContent');
 let companySubContent = document.querySelector('.company-subContent');
 let featureCaret = document.querySelector('.feature-caret');
 let companyCaret = document.querySelector('.company-caret');
+let transparentDiv = document.querySelector('.transparent');
+let snapLogo = document.querySelector('.snap-logo');
 
 
 // HamburgerMenu Onclick
@@ -16,6 +18,8 @@ let companyCaret = document.querySelector('.company-caret');
 hamburgerMenu.onclick = () => {
  navContent.style.display = 'block';
  navContent.style.pointerEvents = 'auto';
+ transparentDiv.style.filter = 'blur(3px)';
+ snapLogo.style.filter = 'blur(3px)';
 }
 
 
@@ -30,6 +34,8 @@ closeMenu.onclick = () => {
  companySubContent.style.pointerEvents = 'none';
  featureCaret.style.transform = 'rotate(180deg)';
  companyCaret.style.transform = 'rotate(180deg)';
+ transparentDiv.style.filter = 'blur(0)';
+ snapLogo.style.filter = 'blur(0)';
 }
 
 
