@@ -104,7 +104,7 @@ header nav div.responsive-nav-div div.company div.company-subContent{
  left: 12rem;
 }
 
-section{
+section div.transparent{
  display: flex;
  position: absolute;
  top: 10rem;
